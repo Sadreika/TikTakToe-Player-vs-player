@@ -1,0 +1,7 @@
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe.config
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\bin\Debug\TikTakToe.pdb
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csprojAssemblyReference.cache
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
+C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
