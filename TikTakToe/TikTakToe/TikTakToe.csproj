@@ -52,5 +52,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TicTacToe-PC-player\TikTakToeAI\TikTakToeAI\TikTakToeAI.csproj">
+      <Project>{50fbf1c5-c1e0-44ba-bdfb-d59866be29bc}</Project>
+      <Name>TikTakToeAI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -55,7 +55,57 @@ namespace TikTakToe
                     Console.WriteLine("Draw");
                     break;
                 }
-                //turnPC();
+                Console.Clear();
+            }
+        }
+
+        public void startGameVsPc()
+        {
+            boardObject.fillingBoardWithEmptyValues();
+            Player player1 = new Player("X");
+            Player player2 = new Player("O");
+            int enteringValue = 0;
+            while (gameNotEnded)
+            {
+                boardObject.showBoard();
+                Console.WriteLine("Player 1 turn");
+                do
+                {
+                    enteringValue = boardObject.fillOne(player1.returnPlayerSymbol(), Int16.Parse(turn(player1)));
+                } while (enteringValue == 0);
+                boardObject.showBoard();
+                if (boardObject.checkingIfGameIsEnded() == 1)
+                {
+                    Console.WriteLine("Player 1 won");
+                    break;
+                }
+                if (boardObject.checkingHowMuchEmptyWindows() == 0)
+                {
+                    Console.WriteLine("Draw");
+                    break;
+                }
+                Console.Clear();
+                boardObject.showBoard();
+                Console.WriteLine("PC turn");
+
+                TikTakToeAI.Program pcObject = new TikTakToeAI.Program();
+                int whereToGoValue = pcObject.whereToGo(boardObject.boardList, player2.returnPlayerSymbol(), player1.returnPlayerSymbol());
+                
+                boardObject.fillOnePC(player2.returnPlayerSymbol(), whereToGoValue);
+                
+                boardObject.showBoard();
+                boardObject.checkingIfGameIsEnded();
+
+                if (boardObject.checkingIfGameIsEnded() == 1)
+                {
+                    Console.WriteLine("PC won");
+                    break;
+                }
+                if (boardObject.checkingHowMuchEmptyWindows() == 0)
+                {
+                    Console.WriteLine("Draw");
+                    break;
+                }
                 Console.Clear();
             }
         }

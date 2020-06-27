@@ -31,6 +31,19 @@ namespace TikTakToe
             }
         }
 
+        public int fillOnePC(string symbol, int whichOneToFill)
+        {
+            if (boardList[whichOneToFill].Equals(" "))
+            {
+                boardList[whichOneToFill] = symbol;
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
         public void showBoard()
         {
             Console.WriteLine(boardList[0] + "|" + boardList[1] + "|" + boardList[2] + "\n" +
@@ -51,7 +64,7 @@ namespace TikTakToe
                (boardList[0] == boardList[4] && boardList[4] == boardList[8] && !boardList[0].Equals(" ")) ||
                (boardList[2] == boardList[4] && boardList[4] == boardList[6] && !boardList[2].Equals(" ")))
             {
-                Console.WriteLine("Game Ended");
+                
                 return 1;
             }
             else

@@ -5,3 +5,14 @@ C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csprojAs
 C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csproj.CoreCompileInputs.cache
 C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
 C:\Users\mariu\Documents\GitHub\TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe.config
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToe.pdb
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csprojAssemblyReference.cache
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToeAI.exe
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToeAI.pdb
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\bin\Debug\TikTakToeAI.exe.config
+C:\Users\mariu\Documents\GitHub\TikTakToe-Player-vs-player\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csproj.CopyComplete
